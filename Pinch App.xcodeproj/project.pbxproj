@@ -14,6 +14,8 @@
 		504B78BC297D79DB00FA3F78 /* Pinch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504B78BB297D79DB00FA3F78 /* Pinch_AppTests.swift */; };
 		504B78C6297D79DB00FA3F78 /* Pinch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504B78C5297D79DB00FA3F78 /* Pinch_AppUITests.swift */; };
 		504B78C8297D79DB00FA3F78 /* Pinch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504B78C7297D79DB00FA3F78 /* Pinch_AppUITestsLaunchTests.swift */; };
+		504B78DA297DB83B00FA3F78 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504B78D9297DB83B00FA3F78 /* InfoPanelView.swift */; };
+		504B78DC297DC37500FA3F78 /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504B78DB297DC37500FA3F78 /* ControlImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		504B78C1297D79DB00FA3F78 /* Pinch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pinch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		504B78C5297D79DB00FA3F78 /* Pinch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinch_AppUITests.swift; sourceTree = "<group>"; };
 		504B78C7297D79DB00FA3F78 /* Pinch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		504B78D9297DB83B00FA3F78 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		504B78DB297DC37500FA3F78 /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,8 @@
 		504B78D5297D7E1800FA3F78 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				504B78D9297DB83B00FA3F78 /* InfoPanelView.swift */,
+				504B78DB297DC37500FA3F78 /* ControlImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -289,8 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				504B78DC297DC37500FA3F78 /* ControlImageView.swift in Sources */,
 				504B78AD297D79D700FA3F78 /* ContentView.swift in Sources */,
 				504B78AB297D79D700FA3F78 /* Pinch_AppApp.swift in Sources */,
+				504B78DA297DB83B00FA3F78 /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
