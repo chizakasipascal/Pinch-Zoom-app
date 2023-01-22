@@ -8,20 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
-    //MARK: - PROPERTY
+    //MARK: -> PROPERTY
     
-    //MARK: - FUNCTION
+    //MARK: -> FUNCTION
     
-    //MARK: - CONTENT
+    //MARK: -> CONTENT
     
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        NavigationView{
+            ZStack{
+                //MARK:  -> IMAGE PAGE
+                Image("magazine-front-cover")
+            }// ZSTACK
+            .navigationTitle("Pinch & Zoom")
+            .navigationBarTitleDisplayMode(.inline)
+        }// NAVIGATIONVIEW
+        .navigationViewStyle(.stack)
     }
 }
 
